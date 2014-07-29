@@ -1,0 +1,17 @@
+{
+    "name": "devclub-rest-server",
+    "author": "kroot",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "hapi": "~6.2.1",
+        "joi": "~4.6.1",
+        "bunyan": "~0.22.3"
+    },
+    "scripts": {
+        "start": "node ./server.js"
+    },
+    "engines": {
+        "node": "~0.10.29"
+    }
+}
