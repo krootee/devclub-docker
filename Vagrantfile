@@ -41,9 +41,6 @@ sudo add-apt-repository ppa:chris-lea/node.js -y
 sudo apt-get update -q
 sudo apt-get install nodejs -y
 
-# Install Bunyan
-sudo npm install bunyan -g
-
 # Install docker-enter
 docker run --rm -v /usr/local/bin:/target jpetazzo/nsenter
 
